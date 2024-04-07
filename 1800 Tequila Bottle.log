@@ -1,0 +1,104 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V1980
+! INFO-      
+! INFO-     Start of Translation: 9-MAR-2024  6:33:54 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\ebreg\Documents\JHU EP\mechatronics\Final Project\1800 Tequila Bottle.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        1800 Tequila Bottle.STEP
+! SUMMARY-  Date             2024-03-09T11:33:29
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2022
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        config_control_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    670
+! SUMMARY-  application_context ........................................:      2
+! SUMMARY-  approval ...................................................:      3
+! SUMMARY-  approval_date_time .........................................:      3
+! SUMMARY-  approval_person_organization ...............................:      3
+! SUMMARY-  approval_role ..............................................:      3
+! SUMMARY-  approval_status ............................................:      3
+! SUMMARY-  axis2_placement_3d .........................................:    591
+! SUMMARY-  b_spline_curve_with_knots ..................................:    890
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:     39
+! SUMMARY-  b_spline_surface_with_knots ................................:    230
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    138
+! SUMMARY-  calendar_date ..............................................:      3
+! SUMMARY-  cartesian_point ............................................:  62118
+! SUMMARY-  circle .....................................................:    288
+! SUMMARY-  closed_shell ...............................................:      3
+! SUMMARY-  conical_surface ............................................:     20
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:      3
+! SUMMARY-  cylindrical_surface ........................................:    128
+! SUMMARY-  date_and_time ..............................................:      3
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:   1515
+! SUMMARY-  edge_curve .................................................:   1550
+! SUMMARY-  edge_loop ..................................................:    701
+! SUMMARY-  face_bound .................................................:     31
+! SUMMARY-  face_outer_bound ...........................................:    670
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:    333
+! SUMMARY-  local_time .................................................:      3
+! SUMMARY-  manifold_solid_brep ........................................:      3
+! SUMMARY-  organization ...............................................:      1
+! SUMMARY-  oriented_edge ..............................................:   3100
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:      3
+! SUMMARY-  plane ......................................................:     96
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  toroidal_surface ...........................................:     58
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vector .....................................................:    333
+! SUMMARY-  vertex_point ...............................................:    915
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          74469
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 9-MAR-2024 6:33:55 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 9-MAR-2024  6:34:09 AM
+! INFO-     Filing Part ..: C:\Users\ebreg\Documents\JHU EP\mechatronics\Final Project\1800 Tequila Bottle.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         3
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         3
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 9-MAR-2024  6:34:11 AM
+! INFO-      

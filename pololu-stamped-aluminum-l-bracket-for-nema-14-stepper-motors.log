@@ -1,0 +1,85 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V1980
+! INFO-      
+! INFO-     Start of Translation: 23-MAR-2024  1:20:04 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\ebreg\Documents\JHU EP\mechatronics\Final Project\pololu-stamped-aluminum-l-bracket-for-nema-14-stepper-motors.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        pololu-stamped-aluminum-l-bracket-for-nema-14-stepper-motors.step
+! SUMMARY-  Date             2016-03-21T19:07:26
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2015
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    319
+! SUMMARY-  application_context ........................................:      2
+! SUMMARY-  axis2_placement_3d .........................................:    288
+! SUMMARY-  b_spline_curve_with_knots ..................................:    196
+! SUMMARY-  b_spline_surface_with_knots ................................:     98
+! SUMMARY-  cartesian_point ............................................:   5639
+! SUMMARY-  circle .....................................................:     66
+! SUMMARY-  closed_shell ...............................................:      1
+! SUMMARY-  cylindrical_surface ........................................:     33
+! SUMMARY-  direction ..................................................:   1175
+! SUMMARY-  edge_curve .................................................:    861
+! SUMMARY-  edge_loop ..................................................:    367
+! SUMMARY-  face_bound .................................................:     48
+! SUMMARY-  face_outer_bound ...........................................:    319
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      3
+! SUMMARY-  length_unit_and_si_unit ....................................:      3
+! SUMMARY-  line .......................................................:    599
+! SUMMARY-  manifold_solid_brep ........................................:      1
+! SUMMARY-  oriented_edge ..............................................:   1722
+! SUMMARY-  plane ......................................................:    188
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      3
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      3
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      3
+! SUMMARY-  vector .....................................................:    599
+! SUMMARY-  vertex_point ...............................................:    572
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          13115
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 23-MAR-2024 1:20:04 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 23-MAR-2024  1:20:07 PM
+! INFO-     Filing Part ..: C:\Users\ebreg\Documents\JHU EP\mechatronics\Final Project\pololu-stamped-aluminum-l-bracket-for-nema-14-stepper-motors.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         1
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         1
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 23-MAR-2024  1:20:09 PM
+! INFO-      
