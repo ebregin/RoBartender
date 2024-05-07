@@ -39,7 +39,7 @@ void loop() {
 
   lcd.setBacklight(HIGH);
   delay(500);
-  lcd.setBacklight(LOW);
+  //lcd.setBacklight(LOW);
   delay(500);
 }
 

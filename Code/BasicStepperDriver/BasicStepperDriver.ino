@@ -1,3 +1,4 @@
+
 /*
  * Simple demo, should work with any driver board
  *
@@ -13,16 +14,18 @@
 
 // Motor steps per revolution. Most steppers are 200 steps or 1.8 degrees/step
 #define MOTOR_STEPS 200
-#define RPM 120
+#define RPM 60
 
 // Since microstepping is set externally, make sure this matches the selected mode
 // If it doesn't, the motor will move at a different RPM than chosen
 // 1=full step, 2=half step etc.
-#define MICROSTEPS 4
+#define MICROSTEPS 16
 
 // All the wires needed for full functionality
 #define DIR 3
 #define STEP 2
+#define DRINK2 4
+#define DRINK3 5
 //Uncomment line to use enable/disable functionality
 //#define SLEEP 13
 
@@ -34,6 +37,7 @@ BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP);
 
 void setup() {
     stepper.begin(RPM, MICROSTEPS);
+    Serial.begin(9600);
     // if using enable/disable on ENABLE pin (active LOW) instead of SLEEP uncomment next line
     // stepper.setEnableActiveState(LOW);
 }
@@ -46,7 +50,27 @@ void loop() {
     /*
      * Moving motor one full revolution using the degree notation
      */
-    stepper.rotate(360*5);
+     int degree_steps = 360*5;
+
+      int i = 0;
+      at_drink = false;
+      while(!at_drink && i<360*5){
+        at_drink =  !digitalRead(DRINK2);
+        stepper.rotate(1);
+        i += 1;
+      }
+      delay(1000);
+
+      int i = 0;
+      at_drink = false;
+      while(!at_drink && i<360*5){
+        at_drink =  !digitalRead(DRINK3);
+        stepper.rotate(-1);
+        i += 1;
+      }
+  
+     //Serial.println("turning one way");
+    //stepper.rotate(360*5);
 
     /*
      * Moving motor to original position using steps
@@ -56,7 +80,8 @@ void loop() {
     // pause and allow the motor to be moved by hand
     // stepper.disable();
 
-    delay(1000);
-    stepper.rotate(-360*5);
- delay(1000);
+    //delay(1000);
+    //Serial.println("turning other way");
+  //  stepper.rotate(-360*5);
+// delay(1000);
 }

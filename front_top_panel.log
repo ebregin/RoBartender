@@ -1,0 +1,50 @@
+﻿
+Unigraphics NX V1980 / 2D Exchange
+
+Reading part: C:\Users\ebreg\Documents\JHU EP\mechatronics\RoBartender\front_top_panel.prt
+
+
+Writing part: C:\Users\ebreg\AppData\Local\Temp\ebre486864EDtufq.prt
+
+Elapsed time   :    0 minutes,  1 seconds
+Actual CPU Time:    0 minutes,  1 seconds
+
+INFO-
+INFO-		Unigraphics Version NX V1980 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Wed May  1 18:23:07 2024
+INFO-
+STATUS-		Converting C:\Users\ebreg\AppData\Local\Temp\ebre486864EDtufq.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\ebreg\AppData\Local\Temp\ebre486864EDtufq.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	16
+SUMMARY-	Point ....................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	17
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\ebreg\Documents\JHU EP\mechatronics\RoBartender\front_top_panel.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Point ....................................:	1
+SUMMARY-	Line .....................................:	16
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	23
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Wed May  1 18:23:07 2024
+INFO-		Translation CPU time: 0 m, 0 sINFO-
